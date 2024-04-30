@@ -1,9 +1,14 @@
 # 32-bit Five Stage Pipeline MIPS Processor
-My name is Fadi Eseed and im in a group with Shahd AbuRaya to make this project step by step .
+We are a group of two people , FadiEseed and ShahdAbuRaya.
 
+## Introduction
+
+A quick overview of the tasks that were divided between us  "Fadi Eseed" and "Shahd Abu Rayya", two members of The "32-bit Five Stage Pipeline MIPS Processor"project team, is provided in this report.
+ Fadi ensures accuracy and efficiency in work execution with his breadth of experience in simulation . Shahd brings new solutions to our project issues with her imaginative approach and love for Testing and debugging  .
+ 
 ## Project Overview
 
-This project involves the implementation of a 32-bit MIPS processor using a five-stage pipeline architecture in Verilog. The goal is to design and simulate a basic MIPS processor that includes instruction fetch, instruction decode, execution, memory access, and write-back stages. Additional features like forwarding and hazard detection units will be integrated to improve the pipeline's efficiency and handle data hazards.
+In this project, a five-stage pipeline design in Verilog is used to construct a 32-bit MIPS processor. The objective is to create and simulate an instruction fetch, instruction decode, execution, memory access, and write-back stages of a basic MIPS processor. The pipeline will be made more efficient and capable of handling data dangers by integrating additional features like forwarding and hazard detection units.
 
 ## Features
 
@@ -23,16 +28,17 @@ This project involves the implementation of a 32-bit MIPS processor using a five
 - `Hazard_Detection_Unit.v` - Module for detecting and handling hazards.
 - `Testbench.v` - Testbench for simulating and verifying the processor's functionality.
 
-## Project Team Work 
-- `MIPS_Processor.v` - Fadi Eseed
-- `IF_Stage.v` - Shahd AbuRaya
-- `ID_Stage.v` - Shahd AbuRaya
-- `EX_Stage.v` - Shahd AbuRaya
-- `MEM_Stage.v` - Fadi Eseed
-- `WB_Stage.v` - Fadi Eseed
-- `Forwarding_Unit.v` - Shahd AbuRaya
-- `Hazard_Detection_Unit.v` - Fadi Eseed
-- `Testbench.v` - Fadi Eseed
+## Team tasks division
+
+- `Study and Research` - Both members
+- `Design` - Both members
+- `Implementation : IF_Stage.v ,ID_Stage.v ,EX_Stage.v and Forwarding_Unit.v` - Shahd AbuRaya
+- `Implementation : MIPS_Processor.v, MEM_Stage.v, WB_Stage.v and Hazard_Detection_Unit.v` - Fadi Eseed
+- `Simulation & Testbench Development` - Fadi Eseed
+- `Integration` - Fadi Eseed
+- `Testing and Debugging` - Shahd AbuRaya
+- `Review and Revision` - both members
+- `Report writing` - Shahd Abu Rayya
 
 ## Simulation and Testing
 
