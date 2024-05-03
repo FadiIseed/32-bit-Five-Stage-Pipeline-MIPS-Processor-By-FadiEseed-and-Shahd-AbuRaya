@@ -10,6 +10,10 @@ module Testbench;
     WB_Stage wb_stage(mem_data, write_back_data);
 
     initial begin
+        // Set up the VCD dump
+        $dumpfile("dump.vcd");
+        $dumpvars(0, Testbench);
+
         clk = 0;
         reset = 1; #20;
         reset = 0;
