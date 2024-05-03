@@ -27,6 +27,8 @@ In this project, a five-stage pipeline design in Verilog is used to construct a 
 - `Forwarding_Unit.v` - Module for the forwarding logic.
 - `Hazard_Detection_Unit.v` - Module for detecting and handling hazards.
 - `Testbench.v` - Testbench for simulating and verifying the processor's functionality.
+- `Control_Unit` - 
+
 
 ## Team tasks division
 
@@ -39,7 +41,7 @@ In this project, a five-stage pipeline design in Verilog is used to construct a 
 - `Testing and Debugging` - Shahd AbuRaya
 - `Review and Revision` - both members
 - `Report writing` - Shahd Abu Rayya
-
+- `Control_Unit` - Both members
 ## Simulation and Testing
 
 Instructions for running simulations:
